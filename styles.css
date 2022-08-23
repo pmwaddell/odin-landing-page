@@ -57,16 +57,6 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-header {
-    background-color: #1F2937;
-    color: #fff;
-    font-size: 24px;
-    display: flex;
-
-    align-items: center;
-    padding: 0px 64px;
-}
-
 footer {
     padding-top: 64px;
     padding-bottom: 64px;
@@ -75,17 +65,39 @@ footer {
     display: flex;
     justify-content: center;
 }
+/* Container classes */
+.nav {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+}
 
-.header-links {
+.nav-info {
+    padding: 16px 32px;
+    background-color: #1F2937;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1050px;
+    flex: auto;
+}
+
+.header-logo a {
+    color: #fff;
+    font-weight: 600;
+    font-size: 24px;
+    text-decoration: none;
+}
+
+.nav-links {
     list-style-type: none;
     font-size: 18px;
     padding-left: 0px;
     display: flex;
-    margin-left: auto;
     gap: 32px;
 }
 
-header a {
+.nav-links a {
     color: #E5E7EB;
     text-decoration: none;
 }
